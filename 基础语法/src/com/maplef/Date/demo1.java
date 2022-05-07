@@ -56,5 +56,8 @@ public class demo1 {
         LocalDate updateDate= LocalDate.parse(d1);
         long between = ChronoUnit.DAYS.between(updateDate,nowDate);	//判断与现在时间相差多少
         System.out.println("天数相差为:"+between);
+
+        //git测试
+
     }
 }
